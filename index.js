@@ -12,6 +12,7 @@ mongoDB();
 app.use(express.json());
 app.use(cors({
   origin: 'http://localhost:3000',
+          "https://meal-mate-food-delivery-frontend.onrender.com",
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   credentials: true
 }));
